@@ -1,0 +1,166 @@
+#result {
+    background-color: rgb(245, 228, 245);
+    width: 40%;
+    float: left;
+    margin: auto;
+    border-radius: 5px;
+  }
+
+  #item {
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  img {
+    width: 100%;
+    height: 350px;
+    display: block;
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body {
+    background-image: url("https://media0.giphy.com/media/13ZEwDgIZtK1y/giphy.webp?cid=ecf05e47e7ja744hcsnb8kgzuuxv1j293g5ubr3774w7ay05&rid=giphy.webp&ct=g");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  h1 {
+    text-align: center;
+    color: rgb(255, 72, 0);
+  }
+  h2 {
+    text-align: center;
+    color: rgb(255, 60, 0);
+  }
+  h3 {
+    text-align: center;
+    color: rgb(0, 38, 255);
+  }
+
+  #btn {
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    font-size: 26px;
+    font-family: "Alegreya Sans SC", sans-serif;
+    display: inlline-block;
+    margin: auto;
+    transition: all 0.3s;
+  }
+
+  #btn:hover {
+    transition: all 0.2s;
+  }
+
+  #btn:focus {
+    outline: none;
+  }
+
+  #btn:active {
+    transition: none; /* So when you tap, effect is instant */
+    padding: 0; /* Firefox adds padding because it's a special sausage */
+  }
+  #btn {
+    color: #1cb;
+    background-color: white;
+    border: 5px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+
+  #btn:active {
+    transform: rotate(360deg);
+    transition: none;
+  }
+
+  #search {
+    margin: 2% auto;
+    /* display: block; */
+    padding: 10px 12px;
+    border: 1px solid violet;
+  }
+
+  #btun {
+    width: 100%;
+    text-align: center;
+    padding: 12px 15px;
+    background-color: blue;
+    color: yellow;
+  }
+
+  span {
+    font-size: 17px;
+    padding: 5px;
+    font-weight: lighter;
+    text-align: justify;
+    /* text-justify: inter-word; */
+  }
+  h4 {
+    padding: 5px;
+    margin-left: 10px;
+    /* text-align: left; */
+    font-weight: bolder;
+    text-align: justify;
+    /* text-justify: inter-word; */
+  }
+
+  #cont {
+    display: flex;
+  }
+
+  #googleMap {
+    float: right;
+    margin: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+
+  .content-table {
+    border-collapse: collapse;
+    font-size: 1em;
+    min-width: 550px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: 2px dashed blue;
+    border-radius: 10px;
+    width: 94%;
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .content-table thead tr {
+    background-color: #0c9479;
+    color: #ffffffd5;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+
+  .content-table tbody tr {
+    border-bottom: 1px solid rgb(255, 10, 10);
+  }
+
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: rgb(170, 211, 228);
+    color: white;
+  }
+
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #d6ece8;
+    background-color: rgb(170, 211, 228);
+    color: white;
+  }
+
+  .content-table tbody tr.active-row {
+    background-color: rgb(170, 211, 228);
+    font-weight: bold;
+  }
